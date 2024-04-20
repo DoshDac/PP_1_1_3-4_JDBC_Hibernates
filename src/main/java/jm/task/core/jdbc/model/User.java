@@ -63,7 +63,7 @@ public class User {
     public String toString() {
         return "Пользователь" + " " +
                 "ID" + " = " + id + "; " +
-                "Имя" + " = "+ name + "; " +
+                "имя" + " = "+ name + "; " +
                 "Фамилия" + " = "+ lastName + "; " +
                 "Возраст" + " = " + age + "!";
     }
