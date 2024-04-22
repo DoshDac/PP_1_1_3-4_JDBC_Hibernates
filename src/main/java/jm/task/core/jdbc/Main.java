@@ -1,14 +1,17 @@
 package jm.task.core.jdbc;
 
+
 import jm.task.core.jdbc.model.User;
 import jm.task.core.jdbc.service.UserServiceImpl;
+
+import java.sql.SQLException;
 import java.util.List;
 
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SQLException {
         UserServiceImpl userService = new UserServiceImpl();
-
+       // UserServiceTest
         User firstUser = new User("ali", "muradov", (byte) 21);
         User secondUser = new User("Leyla", "muradova", (byte) 19);
         User thirdUser = new User("Turpal", "muradov", (byte) 22);

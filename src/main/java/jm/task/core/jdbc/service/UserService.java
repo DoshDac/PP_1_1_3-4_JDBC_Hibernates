@@ -1,4 +1,5 @@
 package jm.task.core.jdbc.service;
+import java.sql.SQLException;
 
 import jm.task.core.jdbc.model.User;
 
@@ -9,7 +10,7 @@ public interface UserService {
 
     void dropUsersTable();
 
-    void saveUser(String name, String lastName, byte age);
+    void saveUser(String name, String lastName, byte age) ;
 
     void removeUserById(long id);
 
